@@ -1,0 +1,98 @@
+body {
+    background-color: #345945;
+    max-width: cover;
+    margin: 0 auto;
+}
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: white;
+}
+ul {
+    padding: 10px;
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+header {
+    text-align: center;
+    background: url(images/greenferns.jpg);
+    background-size: cover;
+    padding: 20px 0px 0px 0px;
+
+}
+h1 {
+    font-size: 5em;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+p {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    max-width: 800px;
+    margin: 0 auto;
+}
+h3 {
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    margin: 40px 0px 0px 0px;
+}
+a {
+    color: white;
+}
+div {
+    text-align: center;
+}
+a {
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 9px 20px;
+    border: 4px solid #3a5948;
+    border-radius: 11px;
+    background: #326449;
+    background: -webkit-gradient(linear, left top, left bottom, from(#326449), to(#3c6d52));
+    background: -moz-linear-gradient(top, #326449, #3c6d52);
+    background: linear-gradient(to bottom, #326449, #3c6d52);
+    text-shadow: #3f634f 1px 1px 2px;
+    font: normal normal bold 16px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 4px solid #5d8e73;
+    background: #3c7858;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3c7858), to(#488362));
+    background: -moz-linear-gradient(top, #3c7858, #488362);
+    background: linear-gradient(to bottom, #3c7858, #488362);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #12241a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#12241a), to(#3c6d52));
+    background: -moz-linear-gradient(top, #12241a, #3c6d52);
+    background: linear-gradient(to bottom, #12241a, #3c6d52);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA2klEQVRIie2TQQrCMBBFX0txkUN7ATfiHaS4yrJ4MjepujAt7ThJM7Xixg8DIQn/zXwSmKsXtQcc4JUzH89Meog6AJ2yP1RnhUiDW8Z8FSRndAZ2sVpxdi2FLJkP0iBFk2jmLdAodxvgYoG4ROea+RRSFJfj/bXIWFJajMtFakksuUmScXmlc4v5FCIn8fD6ldZYUpJx9Qjims41yAio4kJTZTTWfO41EIxGFoUaOH4JEoCTjGE6ZpXYp+DOuF+v6s2gP+D3gNwr2sRXTrDFf5h5SMCnny5Ej1FPVHeGpJPu2gcAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
